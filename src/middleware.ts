@@ -15,8 +15,6 @@ import { RouteVariants } from '@/utils/server/routeVariants';
 
 import { OAUTH_AUTHORIZED } from './const/auth';
 
-import { Analytics } from "@vercel/analytics/react";
-
 export const config = {
   matcher: [
     // include any files in the api or trpc folders that might have an extension
